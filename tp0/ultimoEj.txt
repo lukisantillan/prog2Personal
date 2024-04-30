@@ -1,0 +1,33 @@
+//Ejercicio final:
+
+/*
+Prueba 1: En el tramo que i vale 0-5 se muestra i, cuando i empieza a valor >5 se muestra i-x, porque
+aunque i se declare afuera del for con un 4, dentro del for se le asigna un 0 nuevamente.
+
+Prueba2: se queda en un bucle repitiendo lo que hay en la posicion 8 del array, ya que no esta la condicion dentro del
+while que disminuya el valor de i, como para que en algun momento valga menos de 0.
+
+Prueba3: Lo que muestra el siguiente codigo es el numero 15 en el primer print ya que el parametro enviado 
+es y=3 y el segundo print muestra el numero 4, en caso de querer mostrar las cosas correctamente habria un error
+de sintaxis, ya que la variable que se imprime no es lo que se envio a la funcion.
+
+Prueba4: Lo que se imprime es el numero 7 que es el almacenado en x y el numero 3 que se le asigna a *punta
+
+Prueba5: en el llamado a la funcion(x=datos(x,y,c)) lo que va a imprimir en primera instancia es lo enviado en los
+parametros que en este caso son 9, 44.6 y "a", cuando esto se ejecute y pase al print del main lo que va a imprimir
+es el numero 8 como valor de x, ya que es el asignado en el return de la funcion y luego repetira el c e y del main
+por lo tanto el print del main imprimira lo siguiente: 8 44.6 "a".
+
+Prueba6: Lo que va a imprimir en cada iteracion es lo almacenado en el primer for, por ejemplo en la 
+primer(0) iteracion imprimira:                      
+                            Medidas de cubillete: 4, 0, 1
+en la segunda(1) iteracion:
+                            Medidas de cubillete: 4, 2, 2
+en la tercera(2) iteracion:    
+                            Medidas de cubillete: 4, 4, 3
+en la cuarta(3) iteracion: 
+                            Medidas de cubillete: 4, 6, 4
+y en la quinta(5) iteracion:
+                            Medidas de cubillete: 4, 8, 5
+esto es asi por la logica de almacenar en el ancho i*2 y en el largo i + 1.
+*/
