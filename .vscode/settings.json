@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "SPLIT.C": "cpp",
-        "pilas.h": "c"
+        "pilas.h": "c",
+        "arbol-binario-busqueda.h": "c",
+        "colas.h": "c"
     }
 }
